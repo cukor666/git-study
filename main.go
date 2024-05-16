@@ -15,4 +15,8 @@ func main() {
 	b = 20
 	c = mymath.Sub(a, b)
 	fmt.Println("a - b = ", c)
+	a = 5
+	b = 2
+	c = mymath.Div(a, b)
+	fmt.Println("a / b = ", c)
 }
