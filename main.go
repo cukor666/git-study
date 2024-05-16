@@ -11,4 +11,8 @@ func main() {
 	b := 45
 	c := mymath.Add(a, b)
 	fmt.Println("a + b = ", c)
+	a = 10
+	b = 20
+	c = mymath.Mult(a, b)
+	fmt.Println("a * b = ", c)
 }
