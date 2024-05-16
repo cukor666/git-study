@@ -3,10 +3,12 @@ package main
 import (
 	"fmt"
 	mymath "git-study/my_math"
+	mytest "git-study/test"
 )
 
 func main() {
 	fmt.Println("Hello, world!")
+
 	a := 13
 	b := 45
 	c := mymath.Add(a, b)
@@ -23,5 +25,5 @@ func main() {
 	b = 2
 	c = mymath.Div(a, b)
 	fmt.Println("a / b = ", c)
-
+	mytest.Test()
 }
