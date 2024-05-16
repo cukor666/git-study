@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"git-study/dao"
 	mymath "git-study/my_math"
 	mytest "git-study/test"
 )
@@ -26,4 +27,7 @@ func main() {
 	c = mymath.Div(a, b)
 	fmt.Println("a / b = ", c)
 	mytest.Test()
+	userDao := dao.UserDao{}
+	s := userDao.GetUser(3)
+	fmt.Println(s)
 }
